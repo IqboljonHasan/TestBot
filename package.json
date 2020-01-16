@@ -1,0 +1,22 @@
+{
+  "name": "testonatili",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Iqboljon Xasanov",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.0.4",
+    "mongoose": "^5.7.13",
+    "telegraf": "^3.33.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
